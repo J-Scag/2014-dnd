@@ -162,8 +162,8 @@ SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL
 SPELLNAME:Disguise Self|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
 SPELLNAME:Endure Elements|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
 SPELLNAME:Enlarge Person|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
-SPELLNAME:Identify|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
 SPELLNAME:Shield|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Targeted Bomb Admixture|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
 SPELLNAME:True Strike|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
 
 # Character Description/Bio/History
