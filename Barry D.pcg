@@ -58,6 +58,8 @@ STAT:CHA|SCORE:13
 RACE:Human
 
 # Character Class(es)
+CLASS:Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:10|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:0
@@ -72,41 +74,55 @@ REGION:None
 # Character Skills
 SKILL:Acrobatics|OUTPUTORDER:1|
 SKILL:Appraise|OUTPUTORDER:2|
-SKILL:Bluff|OUTPUTORDER:3|
-SKILL:Climb|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:5|
-SKILL:Diplomacy|OUTPUTORDER:6|
-SKILL:Disguise|OUTPUTORDER:7|
-SKILL:Escape Artist|OUTPUTORDER:8|
-SKILL:Fly|OUTPUTORDER:9|
-SKILL:Heal|OUTPUTORDER:10|
-SKILL:Intimidate|OUTPUTORDER:11|
-SKILL:Perception|OUTPUTORDER:12|
-SKILL:Perform (Untrained)|OUTPUTORDER:13|
-SKILL:Ride|OUTPUTORDER:14|
-SKILL:Sense Motive|OUTPUTORDER:15|
-SKILL:Stealth|OUTPUTORDER:16|
-SKILL:Survival|OUTPUTORDER:17|
-SKILL:Swim|OUTPUTORDER:18|
+SKILL:Diplomacy|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Fly|OUTPUTORDER:10|
+SKILL:Heal|OUTPUTORDER:11|
+SKILL:Intimidate|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:15|
+SKILL:Ride|OUTPUTORDER:16|
+SKILL:Sense Motive|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:19|
+SKILL:Swim|OUTPUTORDER:20|
+SKILL:Perception (Trapfinding)|OUTPUTORDER:14|
+SKILL:Disable Device|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common
 
 # Character Feats
-FEATPOOL:0.0
+FEATPOOL:-2.0
 
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Combat.CelestialBloodline.ElementalBloodline.ShadowBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are trained in using your agility in melee combat, as opposed to brute strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:No Traits ~ Trait|TYPE:Trait.BasicTrait.CombatTrait.FaithTrait.MagicTrait.SocialTrait.CampaignTrait.RaceTrait.RegionalTrait.ReligionTrait|DESC:You do not have any character traits.
+USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
-WEAPONPROF:[WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)]
-WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
-WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike|WEAPON:Underwater Heavy Crossbow|WEAPON:Underwater Light Crossbow]
+WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Underwater Heavy Crossbow|WEAPON:Underwater Light Crossbow]
 
 # Character Equipment
 MONEY:0
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:COSTMOD=-1]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
