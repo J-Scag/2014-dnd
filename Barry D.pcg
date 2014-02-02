@@ -55,6 +55,7 @@ STAT:CON|SCORE:12
 STAT:INT|SCORE:13
 STAT:WIS|SCORE:10
 STAT:CHA|SCORE:13
+ALIGN:CN
 RACE:Human
 
 # Character Class(es)
@@ -100,17 +101,18 @@ SKILL:Use Magic Device|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|
 LANGUAGE:Common
 
 # Character Feats
-FEATPOOL:-2.0
+FEATPOOL:-3.0
 
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Combat.CelestialBloodline.ElementalBloodline.ShadowBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are trained in using your agility in melee combat, as opposed to brute strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Use Magic Device|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Distracting Attack ~ Rogue Talent|TYPE:RogueTalent.SpecialAttack.Extraordinary.AttackOption|DESC:A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become flat-footed against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with uncanny dodge are immune to distracting attack.
 USERPOOL:Rogue Talent|POOLPOINTS:0.0
