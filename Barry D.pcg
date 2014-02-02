@@ -29,7 +29,7 @@ TABNAME:
 PLAYERNAME:Tamreen
 HEIGHT:63
 WEIGHT:145
-AGE:0
+AGE:28
 GENDER:Male
 HANDED:Right
 SKINCOLOR:
@@ -96,6 +96,8 @@ LANGUAGE:Common
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
@@ -131,7 +133,7 @@ CHARACTERDMNOTES:
 # Character Notes Tab
 
 # Age Set Selections
-AGESET:0:0:0:0:0:0:0:0:0:0
+AGESET:1:0:0:0:0:0:0:0:0:0
 
 # Campaign History
 
