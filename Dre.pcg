@@ -1,14 +1,14 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG for Players
+CAMPAIGN:Pathfinder RPG Core Supplements
 VERSION:6.02.00
-ROLLMETHOD:0|EXPRESSION:0
-PURCHASEPOINTS:N
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm
 POOLPOINTS:0
-POOLPOINTSAVAIL:-1
+POOLPOINTSAVAIL:20
 GAMEMODE:Pathfinder_RPG
 TABLABEL:0
 AUTOSPELLS:Y
@@ -120,7 +120,7 @@ ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Cla
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Extract Formula|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassAlchemist|DESC:Add one extract formulae from the alchemist's list to the character's formulae book. This formulae must be at least one level below the highest formulae level the alchemist can create.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extend Spell|TYPE:Metamagic.CelestialBloodline.InfernalBloodline.VerdantBloodline|DESC:You can make your spells last twice as long.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.AbyssalBloodline.ElementalBloodline.BorealBloodline|DESC:You can increase the power of your spells, causing them to deal more damage.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.AbyssalBloodline.ElementalBloodline.BorealBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.RakshasaBloodline.ShaitanBloodline|DESC:You can increase the power of your spells, causing them to deal more damage.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Human Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Heart of the Wilderness ~ Human|TYPE:RacialTraits.SpecialQuality.HumanRacialTrait.HumanSkilled|DESC:Humans raised in the wild learn the hard way that only the strong survive. They gain a bonus equal to half their character level on Survival checks. They also gain a +5 bonus on Constitution checks to stabilize when dying and add half their character level to their Constitution score when determining the negative hit point total necessary to kill them. This racial trait replaces the skilled racial trait.
 ABILITY:Human Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Eye for Talent ~ Human|TYPE:RacialTraits.SpecialQuality.HumanRacialTrait.HumanBonusFeat|DESC:Humans have great intuition for hidden potential. They gain a +2 bonus on Sense Motive checks. In addition, when they acquire an animal companion, bonded mount, cohort, or familiar, that creature gains a +2 bonus to one ability score of the character's choice. This racial trait replaces the bonus feat racial trait.
@@ -128,16 +128,19 @@ USERPOOL:Human Racial Trait|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sacred Touch ~ Trait|TYPE:Trait.BasicTrait.FaithTrait|DESC:You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Classically Schooled ~ Trait|TYPE:Trait.BasicTrait.MagicTrait|DESC:Your apprenticeship or early education was particularly focused on the direct application of magic.
 USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Bomb|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
-WEAPONPROF:[WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff]
-WEAPONPROF:[WEAPON:Rock|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Stake|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Bomb|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike|WEAPON:Underwater Heavy Crossbow|WEAPON:Underwater Light Crossbow]
 
 # Character Equipment
 MONEY:0
+EQUIPNAME:Outfit (Entertainer's)|OUTPUTORDER:0|COST:0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Entertainer's)|DATA:NAME=Outfit (Entertainer's)$COSTMOD=-3]
 EQUIPNAME:Formula Book|OUTPUTORDER:0|COST:15|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Formula Book|DATA:NAME=Formula Book]
-EQUIPNAME:Outfit (Entertainer's)|OUTPUTORDER:0|COST:0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Entertainer's)|DATA:COSTMOD=-3]
 EQUIPNAME:Bomb|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.1|VALUE:Formula Book|QUANTITY:1.0|USETEMPMODS:Y
