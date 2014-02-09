@@ -124,6 +124,8 @@ USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:Combat.FeyBloodline|DESC:You are adept at firing ranged attacks into melee.
 USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Headband of Intellect Skill Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Headband of Intellect Skill Selection|APPLIEDTO:Appraise|TYPE:HeadbandSkill
+USERPOOL:Headband of Intellect Skill Choice|POOLPOINTS:0.0
 ABILITY:Human Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Heart of the Wilderness ~ Human|TYPE:RacialTraits.SpecialQuality.HumanRacialTrait.HumanSkilled|DESC:Humans raised in the wild learn the hard way that only the strong survive. They gain a bonus equal to half their character level on Survival checks. They also gain a +5 bonus on Constitution checks to stabilize when dying and add half their character level to their Constitution score when determining the negative hit point total necessary to kill them. This racial trait replaces the skilled racial trait.
 ABILITY:Human Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Eye for Talent ~ Human|TYPE:RacialTraits.SpecialQuality.HumanRacialTrait.HumanBonusFeat|DESC:Humans have great intuition for hidden potential. They gain a +2 bonus on Sense Motive checks. In addition, when they acquire an animal companion, bonded mount, cohort, or familiar, that creature gains a +2 bonus to one ability score of the character's choice. This racial trait replaces the bonus feat racial trait.
 USERPOOL:Human Racial Trait|POOLPOINTS:0.0
